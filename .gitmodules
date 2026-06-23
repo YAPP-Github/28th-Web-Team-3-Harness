@@ -1,6 +1,3 @@
 [submodule "Be"]
 	path = Be
 	url = https://github.com/YAPP-Github/28th-Web-Team-3-Be.git
-[submodule "Fe"]
-	path = Fe
-	url = https://github.com/YAPP-Github/28th-Web-Team-3-FE.git
