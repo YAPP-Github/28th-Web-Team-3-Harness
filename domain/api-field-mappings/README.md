@@ -28,7 +28,7 @@ BE의 로컬 `main` 작업 트리에 사용자 변경 사항이 있어, 해당 �
 | 영역 | 실제 API 수 | Swagger 문서 방식 | 필드 매핑 상태 |
 | --- | ---: | --- | --- |
 | 게스트 인증 | 2 | `GuestAuthApi` 인터페이스 | 미착수 |
-| 온보딩 | 5 | `OnboardingApi` 인터페이스 | 미착수 |
+| 온보딩 | 5 | `OnboardingApi` 인터페이스 | 진행 중 — [문서](onboarding.md) |
 | 목표 | 3 | `GoalApi` 인터페이스 | 미착수 |
 | 미션 설문 | 3 | `MissionSurveyApi` 인터페이스 | 미착수 |
 | 미션 생성 | 4 | `MissionGenerationApi` 인터페이스 | 미착수 |
