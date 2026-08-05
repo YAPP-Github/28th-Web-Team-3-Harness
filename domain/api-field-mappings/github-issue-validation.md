@@ -16,6 +16,7 @@
 | [#18](https://github.com/YAPP-Github/28th-Web-Team-3-BE/issues/18) 미션 생성 프로세스 | closed | 초안의 목표 횟수·단위, 확정 후 `ACTIVE` 상태 | 일치. `targetCount`, `targetUnit`은 LLM이 임의 변경하지 않는 구조화 값이며 초안·확정 미션의 공통 의미다. |
 | [#33](https://github.com/YAPP-Github/28th-Web-Team-3-BE/issues/33) 추천 미션 개별 삭제 | closed | `DELETE /api/missions/recommended/{missionId}`의 범위 | 일치. 본인에게 배정된 추천 미션만 삭제하고 수동 미션은 삭제 대상이 아니다. |
 | [#35](https://github.com/YAPP-Github/28th-Web-Team-3-BE/issues/35) 기준 지출액·예상 절약액 정책 | open | `estimatedSavingsWon`의 의미와 향후 계약 | 현재 필드는 예상치이며 완료 후에도 실측 절약액이 아니다. 다만 `expenseEstimate`, `savingsDescription` 등 제안 필드는 이슈 체크리스트상 미구현이므로 현행 API 문서에 추가하지 않았다. |
+| [#50](https://github.com/YAPP-Github/28th-Web-Team-3-BE/issues/50) 회원 탈퇴 기능 추가 | open | 인증 방식, 성공 응답, 데이터 삭제·토큰 무효화·재가입 정책 | 일치. `DELETE /api/auth/guest`는 Access Token으로 인증하며 `204`를 반환한다. 탈퇴 뒤 기존 access/refresh token은 사용할 수 없고, 같은 UUID로 재가입하면 새 게스트 계정이 발급된다. |
 
 ## 문서 반영
 
