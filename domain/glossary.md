@@ -8,7 +8,7 @@
 | 미션 생성 작업 | 생성 선행 조건을 바탕으로 미션 초안을 준비하는 비동기 작업 단위 | 미션 생성 요청 | [POLICY-MISSION-002](policies/mission-002-generation.md) |
 | 미션 초안 | 사용자가 선택하기 전, 생성 작업이 제시한 추천 미션 후보 | 임시 미션, 미션 후보 | [POLICY-MISSION-002](policies/mission-002-generation.md) |
 | 추천 미션 | 미션 초안을 사용자가 확정하여 이번 주에 수행하는 미션 | 자동 미션 | [POLICY-MISSION-002](policies/mission-002-generation.md), [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
-| 수동 미션 | 사용자가 직접 내용과 목표를 입력하여 이번 주에 수행하는 미션 | 직접 추천 미션 | [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
+| 수동 미션 | 사용자가 카테고리와 수행 내용을 직접 입력하여 이번 주에 수행하는 미션 | 직접 추천 미션 | [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
 | 활성 미션 | 아직 완료 또는 미완료로 종료되지 않아 수행할 수 있는 미션 | 진행 중 미션 | [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
 | 미션 상태 | 미션의 활성·완료·미완료 상태 | 진행 상태 | [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
 | 주간 종료 시각 | 활성 미션이 미완료로 종료되는 주 단위 경계 시각 | 마감일 | [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
