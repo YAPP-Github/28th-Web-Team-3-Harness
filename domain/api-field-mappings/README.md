@@ -27,7 +27,7 @@ BE의 로컬 `main` 작업 트리에 사용자 변경 사항이 있어, 해당 �
 
 | 영역 | 실제 API 수 | Swagger 문서 방식 | 필드 매핑 상태 |
 | --- | ---: | --- | --- |
-| 게스트 인증 | 2 | `GuestAuthApi` 인터페이스 | 미착수 |
+| 게스트 인증 | 3 | `GuestAuthApi` 인터페이스 | 진행 중 — [문서](guest-auth.md) |
 | 온보딩 | 5 | `OnboardingApi` 인터페이스 | 진행 중 — [문서](onboarding.md) |
 | 목표 | 3 | `GoalApi` 인터페이스 | 미착수 |
 | 미션 설문 | 3 | `MissionSurveyApi` 인터페이스 | 미착수 |
@@ -35,7 +35,7 @@ BE의 로컬 `main` 작업 트리에 사용자 변경 사항이 있어, 해당 �
 | 미션 수명주기 | 4 | 컨트롤러 어노테이션 | 진행 중 — [문서](mission-lifecycle.md) |
 | 헬스 | 1 | 별도 API 문서 없음 | 미착수 |
 
-총 22개 API를 컨트롤러 기준으로 확인했다. 각 영역의 Swagger 계약과 실제 컨트롤러 경로는 이후 필드 문서화 전에 다시 대조한다.
+총 23개 API를 컨트롤러 기준으로 확인했다. 이 중 게스트 회원 탈퇴 API는 PR #52 head commit `0dc9b7c`를 추가 대조 기준으로 사용했다. 각 영역의 Swagger 계약과 실제 컨트롤러 경로는 이후 필드 문서화 전에 다시 대조한다.
 
 전체 경로·DTO·Swagger 문서 범위는 [API 분석 인벤토리](api-inventory.md)에서 확인한다.
 
