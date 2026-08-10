@@ -1,10 +1,12 @@
 # 미션 도메인 공통 기준 기록
 
 - 날짜: 2026-07-24
-- 상태: accepted
+- 상태: superseded
 - 관련 정책과 플로우: [POLICY-MISSION-001](../domain/policies/mission-001-survey.md), [POLICY-MISSION-002](../domain/policies/mission-002-generation.md), [POLICY-MISSION-003](../domain/policies/mission-003-lifecycle.md), [FLOW-MISSION-001](../domain/workflows/mission-001-survey-and-generation.md), [FLOW-MISSION-002](../domain/workflows/mission-002-lifecycle.md)
 
 ## 배경
+
+> 이 결정은 [2026-08-10 미션 정책 전면 교체](2026-08-10-mission-policy-redesign.md)로 대체되었다.
 
 미션 설문, 생성·확정, 추천·수동 미션 생명주기는 백엔드 PR [#13](https://github.com/YAPP-Github/28th-Web-Team-3-BE/pull/13), [#15](https://github.com/YAPP-Github/28th-Web-Team-3-BE/pull/15), [#19](https://github.com/YAPP-Github/28th-Web-Team-3-BE/pull/19), [#20](https://github.com/YAPP-Github/28th-Web-Team-3-BE/pull/20), [#28](https://github.com/YAPP-Github/28th-Web-Team-3-BE/pull/28), [#30](https://github.com/YAPP-Github/28th-Web-Team-3-BE/pull/30)에 구현되었지만, FE와 BE가 함께 읽는 도메인 기준 문서에는 정리되지 않았다.
 

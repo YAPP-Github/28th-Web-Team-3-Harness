@@ -2,16 +2,13 @@
 
 | 용어 | 정의 | 사용 금지 표현 | 관련 정책 |
 | --- | --- | --- | --- |
-| 미션 설문 | 사용자의 절약 습관, 선호와 제외 조건을 받아 미션 후보를 고르는 기준 정보 | 미션 온보딩 | [POLICY-MISSION-001](policies/mission-001-survey.md) |
-| 설문 카테고리 | 미션 설문을 구성하는 식사·교통·취미·생활의 소비 영역 | 설문 종류 | [POLICY-MISSION-001](policies/mission-001-survey.md) |
-| 생성 선행 조건 | 미션 생성 작업을 시작하기 전에 갖춰야 하는 사용자 정보와 미션 설문 | 생성 준비 | [POLICY-MISSION-002](policies/mission-002-generation.md) |
-| 미션 생성 작업 | 생성 선행 조건을 바탕으로 미션 초안을 준비하는 비동기 작업 단위 | 미션 생성 요청 | [POLICY-MISSION-002](policies/mission-002-generation.md) |
-| 미션 초안 | 사용자가 선택하기 전, 생성 작업이 제시한 추천 미션 후보 | 임시 미션, 미션 후보 | [POLICY-MISSION-002](policies/mission-002-generation.md) |
-| 추천 미션 | 미션 초안을 사용자가 확정하여 이번 주에 수행하는 미션 | 자동 미션 | [POLICY-MISSION-002](policies/mission-002-generation.md), [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
-| 수동 미션 | 사용자가 직접 내용과 목표를 입력하여 이번 주에 수행하는 미션 | 직접 추천 미션 | [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
-| 활성 미션 | 아직 완료 또는 미완료로 종료되지 않아 수행할 수 있는 미션 | 진행 중 미션 | [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
-| 미션 상태 | 미션의 활성·완료·미완료 상태 | 진행 상태 | [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
-| 주간 종료 시각 | 활성 미션이 미완료로 종료되는 주 단위 경계 시각 | 마감일 | [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
-| 미션 결과 | 추천 또는 수동 미션이 완료 또는 미완료로 종료된 기록 | 미션 이력 | [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
+| 미션 입력 온보딩 | AI 미션 하나를 생성하기 위해 카테고리·항목·주간 빈도·주간 금액을 한 화면에서 입력하는 과정 | 미션 설문 | [POLICY-MISSION-001](policies/mission-001-survey.md) |
+| 미션 항목 | 식사·생활·취미 카테고리 안에서 사용자가 줄이려는 구체적 소비 대상 | 설문 종류 | [POLICY-MISSION-001](policies/mission-001-survey.md) |
+| AI 미션 생성 작업 | 항목 하나의 입력과 프로필을 바탕으로 검색·AI 생성·서버 계산을 수행하는 비동기 작업 단위 | 설문 생성 | [POLICY-MISSION-002](policies/mission-002-generation.md) |
+| 미션 후보 | 사용자가 선택하기 전에 AI가 제안하고 서버가 횟수·절약액을 결합한 대안 | 강도 단계, 우선순위 미션 | [POLICY-MISSION-002](policies/mission-002-generation.md) |
+| AI 미션 | 사용자가 미션 후보를 확정해 매주 반복 수행하는 미션 | 추천 미션 | [POLICY-MISSION-002](policies/mission-002-generation.md), [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
+| 직접 추가 미션 | 사용자가 카테고리와 최대 30자 문구를 직접 입력한 미션 | 수동 미션 | [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
+| 주간 완료 | 미션 정의와 분리해 미션 ID와 월요일 시작일별로 한 번 저장하는 완료 체크 | 종료 상태 | [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
+| 절약 예상액 | 평소 1회 단가를 100원 단위로 내리고 목표 횟수를 곱한 단순 추정 금액 | AI 추정 금액 | [POLICY-MISSION-002](policies/mission-002-generation.md) |
 
 같은 개념에 여러 이름을 사용하지 않는다. 새 용어는 한 문장으로 정의하고 관련 정책 ID를 연결한다.
