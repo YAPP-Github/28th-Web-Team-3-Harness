@@ -16,8 +16,9 @@
 | 마이페이지 | 사용자가 약관·개인정보처리방침·문의·앱 버전·탈퇴 기능을 확인하고 이용하는 화면 | 설정 페이지, 프로필 페이지 | [POLICY-MYPAGE-001](policies/mypage-001-account-support.md) |
 | 문의 채널 | 사용자가 서비스에 질문이나 불편 사항을 전달할 수 있도록 공식 제공되는 연락 수단 | 문의 수단, 고객센터 | [POLICY-MYPAGE-001](policies/mypage-001-account-support.md) |
 | 탈퇴 | 사용자가 기존 사용자 상태와 저장 데이터를 종료하도록 요청하는 절차 | 회원 탈퇴, 로그아웃, 앱 삭제 | [POLICY-MYPAGE-001](policies/mypage-001-account-support.md) |
-| 혜택 | 사용자가 확인하고 공식 신청 페이지에서 신청할 수 있는 지원 정보 | 지원금, 꿀팁 | [POLICY-BENEFIT-001](policies/benefit-001-discovery-and-bookmark.md) |
-| 혜택 분류 | 혜택을 금융·주거·복지·교육 영역으로 구분하는 기준 | 카테고리, 태그 | [POLICY-BENEFIT-001](policies/benefit-001-discovery-and-bookmark.md) |
+| 혜택 | 사용자가 확인하고 저장할 수 있는 지원·정책 정보로, 공식 신청 페이지가 없는 항목도 포함함 | 지원금, 꿀팁 | [POLICY-BENEFIT-001](policies/benefit-001-discovery-and-bookmark.md) |
+| 혜택 필터 분류 | 혜택 목록을 조회할 때 사용하는 금융·주거·복지·교육 구분 | 혜택 표시 분류, 카테고리, 태그 | [POLICY-BENEFIT-001](policies/benefit-001-discovery-and-bookmark.md) |
+| 혜택 표시 분류 | 혜택 서비스가 카드 표시용으로 제공하는 문자열로, 혜택 필터 분류에 한정되지 않으며 없을 수 있음 | 혜택 필터 분류, 카테고리, 태그 | [POLICY-BENEFIT-001](policies/benefit-001-discovery-and-bookmark.md) |
 | 저장한 혜택 | 사용자가 다시 확인하려고 저장 상태로 표시한 혜택 | 찜한 혜택, 북마크한 혜택 | [POLICY-BENEFIT-001](policies/benefit-001-discovery-and-bookmark.md) |
 
 같은 개념에 여러 이름을 사용하지 않는다. 새 용어는 한 문장으로 정의하고 관련 정책 ID를 연결한다.
