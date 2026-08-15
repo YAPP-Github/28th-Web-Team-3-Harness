@@ -13,5 +13,11 @@
 | 미션 상태 | 미션의 활성·완료·미완료 상태 | 진행 상태 | [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
 | 주간 종료 시각 | 활성 미션이 미완료로 종료되는 주 단위 경계 시각 | 마감일 | [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
 | 미션 결과 | 추천 또는 수동 미션이 완료 또는 미완료로 종료된 기록 | 미션 이력 | [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
+| 마이페이지 | 사용자가 약관·개인정보처리방침·문의·앱 버전·탈퇴 기능을 확인하고 이용하는 화면 | 설정 페이지, 프로필 페이지 | [POLICY-MYPAGE-001](policies/mypage-001-account-support.md) |
+| 문의 채널 | 사용자가 서비스에 질문이나 불편 사항을 전달할 수 있도록 공식 제공되는 연락 수단 | 문의 수단, 고객센터 | [POLICY-MYPAGE-001](policies/mypage-001-account-support.md) |
+| 탈퇴 | 사용자가 기존 사용자 상태와 저장 데이터를 종료하도록 요청하는 절차 | 회원 탈퇴, 로그아웃, 앱 삭제 | [POLICY-MYPAGE-001](policies/mypage-001-account-support.md) |
+| 혜택 | 사용자가 확인하고 공식 신청 페이지에서 신청할 수 있는 지원 정보 | 지원금, 꿀팁 | [POLICY-BENEFIT-001](policies/benefit-001-discovery-and-bookmark.md) |
+| 혜택 분류 | 혜택을 금융·주거·복지·교육 영역으로 구분하는 기준 | 카테고리, 태그 | [POLICY-BENEFIT-001](policies/benefit-001-discovery-and-bookmark.md) |
+| 저장한 혜택 | 사용자가 다시 확인하려고 저장 상태로 표시한 혜택 | 찜한 혜택, 북마크한 혜택 | [POLICY-BENEFIT-001](policies/benefit-001-discovery-and-bookmark.md) |
 
 같은 개념에 여러 이름을 사용하지 않는다. 새 용어는 한 문장으로 정의하고 관련 정책 ID를 연결한다.
