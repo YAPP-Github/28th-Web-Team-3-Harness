@@ -36,19 +36,15 @@ BE `origin/main` 커밋 `8298024`에서 Swagger 설정, API 문서 인터페이�
 | PUT | `/api/goal/savings` | `SavingRequest` | `GoalStatusResponse` | `GoalApi.setSaving` |
 | PATCH | `/api/goal` | `GoalUpdateRequest` | `GoalStatusResponse` | `GoalApi.update` |
 
-## 미션 설문 — 일치
+## 기존 미션 설문 — 폐기
 
-| HTTP | 경로 | request/parameter | response | Swagger 근거 |
-| --- | --- | --- | --- | --- |
-| GET | `/api/missions/surveys/questions` | query `categories`(선택) | `MissionSurveyQuestionsResponse` | `MissionSurveyApi.questions` |
-| GET | `/api/missions/surveys` | 없음 | `MissionSurveyResponse` | `MissionSurveyApi.get` |
-| PUT | `/api/missions/surveys` | `MissionSurveyPutRequest` | `MissionSurveyResponse` | `MissionSurveyApi.replace` |
+`/api/missions/surveys/**`는 POLICY-MISSION-001 개편으로 비활성화되며 미션 카탈로그와 생성 요청 입력으로 대체한다.
 
 ## 미션 생성 — 일치
 
 | HTTP | 경로 | request/parameter | response | Swagger 근거 |
 | --- | --- | --- | --- | --- |
-| POST | `/api/missions/generation-jobs` | 없음 | `MissionGenerationJobResponse` | `MissionGenerationApi.request` |
+| POST | `/api/missions/generation-jobs` | `category`, `item`, `baselineFrequency`, `baselineAmountWon` | `MissionGenerationJobResponse` | `MissionGenerationApi.request` |
 | GET | `/api/missions/generation-jobs/{jobId}` | path `jobId` | `MissionGenerationJobResponse` | `MissionGenerationApi.status` |
 | GET | `/api/missions/generation-jobs/{jobId}/drafts` | path `jobId` | `MissionDraftsResponse` | `MissionGenerationApi.drafts` |
 | POST | `/api/missions/generation-jobs/{jobId}/confirm` | path `jobId`, `MissionConfirmRequest` | `MissionConfirmResponse` | `MissionGenerationApi.confirm` |
@@ -57,9 +53,11 @@ BE `origin/main` 커밋 `8298024`에서 Swagger 설정, API 문서 인터페이�
 
 | HTTP | 경로 | request/parameter | response | Swagger 근거 |
 | --- | --- | --- | --- | --- |
-| GET | `/api/missions` | query `status`(선택) | `MissionsResponse` | `MissionController.list`의 `@Operation` |
+| GET | `/api/missions/catalog` | 없음 | `MissionCatalogResponse` | `MissionController.catalog`의 `@Operation` |
+| GET | `/api/missions` | query `status`, `category`(선택) | `MissionsResponse` | `MissionController.list`의 `@Operation` |
+| GET | `/api/missions/progress` | query `category`(선택) | `MissionProgressResponse` | `MissionController.progress`의 `@Operation` |
 | POST | `/api/missions/manual` | `ManualMissionCreateRequest` | `MissionLifecycleResponse` | `MissionController.createManual`의 `@Operation` |
-| DELETE | `/api/missions/recommended/{missionId}` | path `missionId` | 없음 (`204`) | `MissionController.deleteRecommended`의 `@Operation` |
+| DELETE | `/api/missions/{source}/{missionId}` | path `source`, `missionId` | 없음 (`204`) | `MissionController.delete`의 `@Operation` |
 | PATCH | `/api/missions/{source}/{missionId}/complete` | path `source`, `missionId` | `MissionLifecycleResponse` | `MissionController.complete`의 `@Operation` |
 
 이 영역의 필드 의미는 [미션 수명주기 문서](mission-lifecycle.md)에 기록했다. API 문서 인터페이스가 없어 응답 schema·오류 응답 설명은 SpringDoc의 자동 생성에 의존한다.
@@ -73,7 +71,7 @@ BE `origin/main` 커밋 `8298024`에서 Swagger 설정, API 문서 인터페이�
 ## Swagger 문서화 구조에서 확인한 사항
 
 - SpringDoc UI는 `/swagger-ui.html`, OpenAPI JSON은 `/v3/api-docs`로 설정돼 있다.
-- 인증·온보딩·목표·미션 설문·미션 생성은 `apidoc` 인터페이스에 operation, schema, 성공/오류 response 설명을 둔다.
+- 인증·온보딩·목표·미션 생성은 `apidoc` 인터페이스에 operation, schema, 성공/오류 response 설명을 둔다.
 - 미션 수명주기는 컨트롤러의 `@Tag`, `@Operation`만 사용한다.
 - 헬스 API에는 별도 Swagger 설명이 없다.
-- 수용 테스트는 인증·목표·미션 설문·미션 생성·미션 수명주기의 OpenAPI 경로 공개를 검증한다. 헬스와 온보딩의 OpenAPI 경로 검증 테스트는 이 기준 커밋에서 찾지 못했다.
+- 수용 테스트는 인증·목표·미션 생성·미션 수명주기의 OpenAPI 경로 공개를 검증한다.
