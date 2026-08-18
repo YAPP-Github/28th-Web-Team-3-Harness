@@ -6,12 +6,17 @@ BE `origin/main` 커밋 `8298024`에서 Swagger 설정, API 문서 인터페이�
 
 `일치`는 Swagger 문서 계약과 컨트롤러 경로·HTTP 메서드가 대조되었다는 뜻이며, 모든 필드의 한국어 의미가 확정되었다는 뜻은 아니다.
 
-## 게스트 인증 — 일치
+## 게스트 인증 — 부분 문서화
+
+`DELETE /api/auth/guest`는 BE PR #52 head commit `0dc9b7c`에서 추가된 계약이며, 나머지 인벤토리의 기준 커밋과 구분해 기록한다.
 
 | HTTP | 경로 | request | response | Swagger 근거 |
 | --- | --- | --- | --- | --- |
 | POST | `/api/auth/guest` | `GuestAuthRequest` | `TokenResponse` | `GuestAuthApi.issue` |
 | POST | `/api/auth/guest/refresh` | `RefreshTokenRequest` | `TokenResponse` | `GuestAuthApi.refresh` |
+| DELETE | `/api/auth/guest` | 없음 (Bearer Access Token) | 없음 (`204`) | `GuestAuthApi.withdraw` |
+
+이 영역의 필드와 탈퇴 계약은 [게스트 인증 문서](guest-auth.md)에 기록했다.
 
 ## 온보딩 — 일치
 
