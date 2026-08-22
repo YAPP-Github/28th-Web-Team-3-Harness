@@ -50,7 +50,9 @@ BE `origin/main` 커밋 `8298024`에서 Swagger 설정, API 문서 인터페이�
 | POST | `/api/missions/generation-jobs/{jobId}/confirm` | path `jobId`, `MissionConfirmRequest` | `MissionConfirmResponse` | `MissionGenerationApi.confirm` |
 | POST | `/api/missions/generations` | `category`, `item`, `baselineFrequency`, `baselineAmountWon` | `MissionCandidatesResponse` | `MissionCandidateApi.candidates` |
 
-`POST /api/missions/generations`는 DB 템플릿 기반 후보 3개를 동기 반환하는 신규 계약이다. job 생성·polling·후보 확정을 포함하지 않으며, 프론트엔드 필드 규칙은 [동기 미션 후보 API 명세](mission-generation.md)에 기록했다.
+`POST /api/missions/generation-jobs`는 DB 템플릿 기반 초안 3개를 동기 저장하고 이미 `SUCCEEDED` 상태인 job을 반환한다. 초안 조회·확정의 필드 규칙은 [동기 완료 미션 생성 Job API 명세](mission-generation-job.md)에 기록했다.
+
+`POST /api/missions/generations`는 DB 템플릿 기반 후보 3개를 동기 반환하는 별도 조회 계약이다. job 생성·후보 확정을 포함하지 않으며, 프론트엔드 필드 규칙은 [동기 미션 후보 API 명세](mission-generation.md)에 기록했다.
 
 ## 미션 수명주기 — 부분 문서화
 
