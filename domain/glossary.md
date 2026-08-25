@@ -11,5 +11,8 @@
 | 직접 추가 미션 | 사용자가 카테고리와 최대 30자 문구를 직접 입력한 미션 | 수동 미션 | [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
 | 주간 완료 | 미션 정의와 분리해 미션 ID와 월요일 시작일별로 한 번 저장하는 완료 체크 | 종료 상태 | [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
 | 절약 예상액 | 평소 1회 단가를 100원 단위로 내리고 목표 횟수를 곱한 단순 추정 금액 | AI 추정 금액 | [POLICY-MISSION-002](policies/mission-002-generation.md) |
+| 홈 목표 현황 | 홈에서 전체 목표의 누적 저축과 이번 달 목표·저축 진행을 요약한 영역 | 목표 대시보드 | [POLICY-HOME-001](policies/home-001-dashboard.md) |
+| 이번 주 미션 요약 | 현재 주의 삭제되지 않은 전체 미션을 기준으로 완료 개수·달성률·완료 미션 절약 예상액을 집계한 홈 영역 | 미션 전체 기록 | [POLICY-HOME-001](policies/home-001-dashboard.md) |
+| 눈여겨볼 만한 혜택/팁 | 홈에서 개인 조건에 맞는 청년정책 혜택을 최대 5개 보여 주는 영역으로, 현재 구현에는 절약 팁이 포함되지 않는다. | 절약 팁 목록 | [POLICY-HOME-001](policies/home-001-dashboard.md) |
 
 같은 개념에 여러 이름을 사용하지 않는다. 새 용어는 한 문장으로 정의하고 관련 정책 ID를 연결한다.
