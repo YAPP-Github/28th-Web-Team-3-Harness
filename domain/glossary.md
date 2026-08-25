@@ -11,5 +11,7 @@
 | 직접 추가 미션 | 사용자가 카테고리와 최대 30자 문구를 직접 입력한 미션 | 수동 미션 | [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
 | 주간 완료 | 미션 정의와 분리해 미션 ID와 월요일 시작일별로 한 번 저장하는 완료 체크 | 종료 상태 | [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
 | 절약 예상액 | 평소 1회 단가를 100원 단위로 내리고 목표 횟수를 곱한 단순 추정 금액 | AI 추정 금액 | [POLICY-MISSION-002](policies/mission-002-generation.md) |
+| 게스트 탈퇴 | 인증된 게스트의 계정과 그 계정에 귀속된 서버 데이터를 영구 삭제하는 절차 | 앱 삭제, 로그아웃 | [POLICY-MYPAGE-001](policies/mypage-001-account-support.md) |
+| 문의 대체 채널 | 카카오톡 오픈채팅 주소를 사용할 수 없을 때에도 문의가 가능하도록 제공하는 개인정보 문의용 이메일 경로 | 보조 문의 | [POLICY-MYPAGE-001](policies/mypage-001-account-support.md) |
 
 같은 개념에 여러 이름을 사용하지 않는다. 새 용어는 한 문장으로 정의하고 관련 정책 ID를 연결한다.
