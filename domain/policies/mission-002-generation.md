@@ -36,6 +36,6 @@
 - [FLOW-MISSION-001](../workflows/mission-001-survey-and-generation.md)
 - [POLICY-MISSION-001](mission-001-survey.md)
 - [POLICY-MISSION-003](mission-003-lifecycle.md)
-- [동기 미션 후보 API 명세](../api-field-mappings/mission-generation.md)
+- [미션 생성 API 필드 매핑](../api-field-mappings/mission-generation.md)
 - [2026-08-10-mission-policy-redesign](../../decisions/2026-08-10-mission-policy-redesign.md)
 - [2026-08-25-mission-main-baseline](../../decisions/2026-08-25-mission-main-baseline.md)
