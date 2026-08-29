@@ -37,5 +37,6 @@
 ## 관련 플로우와 결정
 
 - [FLOW-ONBOARDING-001](../workflows/onboarding-001-profile-and-goal.md)
+- [FLOW-ONBOARDING-002](../workflows/onboarding-002-profile-update.md)
 - [POLICY-ONBOARDING-002](onboarding-002-goal.md)
 - [2026-08-25-onboarding-main-baseline](../../decisions/2026-08-25-onboarding-main-baseline.md)
