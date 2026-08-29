@@ -3,8 +3,8 @@
 ## 상태
 
 - 상태: 확정
-- 기준 BE 브랜치: `feat/0-synchronous-direct-generation-jobs`
-- 기준 기능 PR: `28th-Web-Team-3-BE#166`
+- 기준 BE 커밋: `6deb8af2f5e167cbbaf0d15ce9a025cf7c7a6227`
+- 기준 기능 PR: `28th-Web-Team-3-BE#166` (merged)
 - Swagger 태그: `Mission Generation`
 
 ## 프론트엔드 적용 범위
@@ -75,4 +75,3 @@ POST 성공 직후 호출할 수 있다. 응답은 항상 정확히 3개의 draf
 - 서버는 요청한 `item`의 활성 `mission_action_template` 중 결정적으로 선택한 정확히 3개를 draft로 저장한다.
 - 각 draft의 `targetCount`는 `baselineFrequency`, `estimatedSavingsWon`은 `baselineAmountWon`, `targetUnit`은 `TIMES_PER_WEEK`, `savingsEstimateVersion`은 `V2_DIRECT_CANDIDATE`다.
 - template이 3개 미만이거나 유효하지 않으면 요청 전체가 실패하며 job·draft는 저장되지 않는다.
-
