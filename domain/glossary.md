@@ -13,5 +13,7 @@
 | 주간 완료 | 미션 정의와 분리해 미션 출처·ID와 서울 시간 기준 월요일 시작일별로 한 번 저장하는 완료 체크 | 종료 상태 | [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
 | 절약 예상액 | 추천 미션 완료 시 아낄 수 있다고 안내하는 단순 추정 금액으로 현재는 입력 기준 금액을 그대로 사용한 값 | AI 추정 금액, 실절약액 | [POLICY-MISSION-002](policies/mission-002-generation.md) |
 | 미션 내역 | 월별 각 주의 미션 전체 수와 완료 수로 과거 수행 결과를 보여 주는 기록 화면 | 완료 미션 목록 | [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
+| 게스트 탈퇴 | 인증된 게스트의 계정과 그 계정에 귀속된 서버 데이터를 영구 삭제하는 절차 | 앱 삭제, 로그아웃 | [POLICY-MYPAGE-001](policies/mypage-001-account-support.md) |
+| 문의 대체 채널 | 카카오톡 오픈채팅 주소를 사용할 수 없을 때에도 문의가 가능하도록 제공하는 개인정보 문의용 이메일 경로 | 보조 문의 | [POLICY-MYPAGE-001](policies/mypage-001-account-support.md) |
 
 같은 개념에 여러 이름을 사용하지 않는다. 새 용어는 한 문장으로 정의하고 관련 정책 ID를 연결한다.
