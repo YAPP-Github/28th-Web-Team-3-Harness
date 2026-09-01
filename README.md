@@ -33,6 +33,8 @@ FE 또는 BE에만 적용되는 구현 규칙, 실제 시크릿, 확정되지 �
 │   ├── policies/
 │   ├── workflows/
 │   └── exceptions.md
+├── docs/
+│   └── api-versioning.md
 ├── decisions/
 └── templates/
     ├── policy.md
@@ -46,8 +48,11 @@ FE 또는 BE에만 적용되는 구현 규칙, 실제 시크릿, 확정되지 �
 - `.claude/`: Claude Code 호환 심볼릭 링크
 - `.github/`: PR 템플릿
 - `domain/`: 용어, 정책, 플로우, 특이사항
+- `docs/`: 저장소 운영 문서
 - `decisions/`: 정책과 플로우 결정 기록
 - `templates/`: 정책, 플로우, 결정 기록 템플릿
+
+API 배포 조합을 기록할 때는 [API 버전과 호환성 관리](docs/api-versioning.md)를 따른다.
 
 ## 서브모듈 초기화
 
