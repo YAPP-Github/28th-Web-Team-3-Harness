@@ -2,6 +2,10 @@
 
 | 용어 | 정의 | 사용 금지 표현 | 관련 정책 |
 | --- | --- | --- | --- |
+| 온보딩 프로필 | 게스트 사용자가 최초 이용 중 부분 저장하는 생년월일·거주지역·월급·월 저축액·순자산·목표 기간의 묶음 | 회원 정보, 설문 결과 | [POLICY-ONBOARDING-001](policies/onboarding-001-profile.md) |
+| 월 저축 목표 | 온보딩 마지막 단계에서 현재 월 저축액 이상으로 선택해 목표 금액 계산에 사용하는 매달 저축 금액 | 목표안, 플랜 | [POLICY-ONBOARDING-002](policies/onboarding-002-goal.md) |
+| 온보딩 완료 | 월 저축 목표를 확정해 온보딩 목표와 서비스 목표가 생성된 상태 | 설문 완료, 프로필 저장 완료 | [POLICY-ONBOARDING-002](policies/onboarding-002-goal.md) |
+| 내 정보 수정 | 온보딩 완료 후 생년월일·월급·월 저축액·순자산·목표 기간을 한 번에 갱신하고 확정된 목표를 동기화하는 과정 | 온보딩 재진입, 프로필 부분 저장 | [POLICY-ONBOARDING-001](policies/onboarding-001-profile.md), [POLICY-ONBOARDING-002](policies/onboarding-002-goal.md) |
 | 미션 생성 입력 | 추천 미션을 만들기 위해 카테고리·항목·기준 빈도·기준 금액을 대화형 화면에서 순서대로 입력하는 과정 | 미션 설문, AI 설문 | [POLICY-MISSION-001](policies/mission-001-survey.md) |
 | 미션 항목 | 식비·생활·취미 카테고리 안에서 서버 카탈로그가 활성 상태로 제공하는 구체적 소비 대상 | 설문 종류 | [POLICY-MISSION-001](policies/mission-001-survey.md) |
 | 소비 기준 | 추천 미션 문구의 목표 횟수와 절약 예상액에 사용하는 사용자의 기준 빈도와 기준 금액 | 실측값, AI 계산값 | [POLICY-MISSION-001](policies/mission-001-survey.md), [POLICY-MISSION-002](policies/mission-002-generation.md) |
