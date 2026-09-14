@@ -15,6 +15,10 @@
 | 직접 추가 미션 | 사용자가 카테고리와 최대 30자 문구를 직접 입력한 미션 | 수동 미션 | [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
 | 주간 완료 | 미션 정의와 분리해 미션 ID와 월요일 시작일별로 한 번 저장하는 완료 체크 | 종료 상태 | [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
 | 절약 예상액 | 평소 1회 단가를 100원 단위로 내리고 목표 횟수를 곱한 단순 추정 금액 | AI 추정 금액 | [POLICY-MISSION-002](policies/mission-002-generation.md) |
+| 정책 혜택 | 게스트의 프로필 조건에 맞춰 노출하는 청년정책 콘텐츠로, 신청 링크가 있을 때만 외부 신청 페이지로 연결한다 | 지원 정책, 정부 혜택 | [POLICY-BENEFIT-001](policies/benefit-001-discovery-and-bookmark.md) |
+| 절약 팁 | 식비·생활·취미 소비를 줄이는 방법을 제공하는 콘텐츠로, 원문 링크가 있을 때만 외부 원문으로 연결한다 | 꿀팁, 혜택 카드 | [POLICY-BENEFIT-001](policies/benefit-001-discovery-and-bookmark.md) |
+| 혜택 저장 | 게스트가 정책 혜택 또는 절약 팁을 나중에 다시 볼 수 있도록 콘텐츠 유형과 ID로 보관하는 행위 | 찜, 좋아요 | [POLICY-BENEFIT-001](policies/benefit-001-discovery-and-bookmark.md) |
+| 저장됨 | 현재 게스트가 저장한 정책 혜택과 절약 팁을 콘텐츠 유형별로 확인하는 화면 | 저장 필터, 북마크함 | [POLICY-BENEFIT-001](policies/benefit-001-discovery-and-bookmark.md) |
 | 홈 목표 현황 | 홈에서 전체 목표의 누적 저축과 이번 달 목표·저축 진행을 요약한 영역 | 목표 대시보드 | [POLICY-HOME-001](policies/home-001-dashboard.md) |
 | 이번 주 미션 요약 | 현재 주에 조회 가능하며 삭제되지 않고 비활성화된 항목에 속하지 않은 미션을 기준으로 완료 개수·달성률·완료 미션 절약 예상액을 집계한 홈 영역 | 미션 전체 기록 | [POLICY-HOME-001](policies/home-001-dashboard.md) |
 | 눈여겨볼 만한 혜택/팁 | 홈에서 개인 조건에 맞는 청년정책 혜택을 최대 5개 보여 주는 영역으로, 현재 구현에는 절약 팁이 포함되지 않는다. | 절약 팁 목록 | [POLICY-HOME-001](policies/home-001-dashboard.md) |
