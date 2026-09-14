@@ -17,6 +17,9 @@
 | 주간 완료 | 미션 정의와 분리해 미션 출처·ID와 서울 시간 기준 월요일 시작일별로 한 번 저장하는 완료 체크 | 종료 상태 | [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
 | 절약 예상액 | 추천 미션 완료 시 아낄 수 있다고 안내하는 단순 추정 금액으로 현재는 입력 기준 금액을 그대로 사용한 값 | AI 추정 금액, 실절약액 | [POLICY-MISSION-002](policies/mission-002-generation.md) |
 | 미션 내역 | 월별 각 주의 미션 전체 수와 완료 수로 과거 수행 결과를 보여 주는 기록 화면 | 완료 미션 목록 | [POLICY-MISSION-003](policies/mission-003-lifecycle.md) |
+| 홈 목표 현황 | 홈에서 전체 목표의 누적 저축과 이번 달 목표·저축 진행을 요약한 영역 | 목표 대시보드 | [POLICY-HOME-001](policies/home-001-dashboard.md) |
+| 이번 주 미션 요약 | 현재 주에 조회 가능하며 삭제되지 않고 비활성화된 항목에 속하지 않은 미션을 기준으로 완료 개수·달성률·완료 미션 절약 예상액을 집계한 홈 영역 | 미션 전체 기록 | [POLICY-HOME-001](policies/home-001-dashboard.md) |
+| 눈여겨볼 만한 혜택/팁 | 홈에서 개인 조건에 맞는 청년정책 혜택을 최대 5개 보여 주는 영역으로, 현재 구현에는 절약 팁이 포함되지 않는다. | 절약 팁 목록 | [POLICY-HOME-001](policies/home-001-dashboard.md) |
 | 게스트 탈퇴 | 인증된 게스트의 계정과 그 계정에 귀속된 서버 데이터를 영구 삭제하는 절차 | 앱 삭제, 로그아웃 | [POLICY-MYPAGE-001](policies/mypage-001-account-support.md) |
 | 문의 대체 채널 | 카카오톡 오픈채팅 주소를 사용할 수 없을 때에도 문의가 가능하도록 제공하는 개인정보 문의용 이메일 경로 | 보조 문의 | [POLICY-MYPAGE-001](policies/mypage-001-account-support.md) |
 
